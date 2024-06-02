@@ -29,6 +29,10 @@ class Main {
 
 型にはめない事を宣言する型varはその一種
 
+
+
+
+
 格納する要素の数を最初に決める必要があり、かつ後で要素数を変更することができません。
 
  int[] scores;
@@ -40,8 +44,17 @@ class Main {
 
 つまりこれは3行までの指定になる。
 
+
+
+
+
 import java.util.ArrayList;これがあれば配列数を宣言しなくても良くなるって感じなのかな
 自動でなんかリサイズするみたいな感じ
+
+
+
+
+ruby
 
 def hello
   puts "Hello, world!"
@@ -58,6 +71,9 @@ class Main {
         System.out.println("Hello, world!");
     }
 }
+
+
+
 
 メソッドを呼び出す指示がなくても出力される
 

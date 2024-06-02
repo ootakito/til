@@ -42,3 +42,21 @@ class Main {
 
 import java.util.ArrayList;これがあれば配列数を宣言しなくても良くなるって感じなのかな
 自動でなんかリサイズするみたいな感じ
+
+def hello
+  puts "Hello, world!"
+end
+
+ メソッドを定義しただけでは何も表示されない
+
+hello メソッドを呼び出す
+
+これがjavaだと
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+
+メソッドを呼び出す指示がなくても出力される

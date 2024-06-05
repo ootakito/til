@@ -119,6 +119,8 @@ volatile: 変わりやすい。フィールドに使用。
 @GetMapping
 ("/表示したい場所"）かなSpring フレームワークの場合はこんな感じか
 
+app/viewsかsrc/main/resources/templatesの違いだけかな.htmlの置き場は基本的にルビーとjavaの違いは
+
 
 
 

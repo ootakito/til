@@ -129,6 +129,8 @@ import lombok.Data;
 public class PostForm {
     private String memo;がparamsと似たような感じってルビーっていかに簡潔か実感する
 
+ルビーのパラメーターの扱いとの違いはルーティング設定をパラムスにもコントローラー名で指示する感じだ
+
 
 
 

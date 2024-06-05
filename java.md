@@ -121,6 +121,14 @@ volatile: 変わりやすい。フィールドに使用。
 
 app/viewsかsrc/main/resources/templatesの違いだけかな.htmlの置き場は基本的にルビーとjavaの違いは
 
+package in.techcamp.firstapp;
+
+import lombok.Data;
+
+@Data
+public class PostForm {
+    private String memo;がparamsと似たような感じってルビーっていかに簡潔か実感する
+
 
 
 

@@ -36,7 +36,7 @@ SQLの書き方　予約語は大文字で書く
 
 SELECTやLIMITで何を引き出すか指定すると速い動きになる。（データ量が減る為）
 
-## GROUP BY  データの集計に必要
+## GROUP BY  テーブル結合（INNER/OUTERJOIN)
 
 SERCT COUNT（カラム名）これでレコード数か数えられ
 FROM  テーブル名

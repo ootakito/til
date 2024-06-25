@@ -54,7 +54,13 @@ GROUP BYでのエラーは詳細な指示をしてない事で起きるパター
 使い分けJOINは２つのテーブルを軸に出来る。
 SELECT*
 FROMカラム名AS m
-INNERJOIN結合したいテーブル。AS　h ON m.id=結合条件
+INNERJOIN結合したいテーブル。AS　h ON 結合条件
+
+
+
+
+
+
 
 
 

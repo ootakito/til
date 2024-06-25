@@ -1,3 +1,5 @@
+## データ取得
+
 SELECT * FROM users　これは全ユーザーのデータ取得アスタリスクを使う<br>
 
 SELECT　name カラム名<br>

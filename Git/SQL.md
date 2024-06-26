@@ -64,9 +64,9 @@ LEFTOUTERJOINは必要な情報以外も持ってくる。のであまり使わ�
 
 ## CASE式
 
-SELECT CASE WHEN 条件　値
-WHEN 条件　THEN 値
-FROM テーブル名
+SELECT CASE WHEN 条件　値<br>
+WHEN 条件　THEN 値<br>
+FROM テーブル名<br>
 
 | country_name | the price of the item |
 | ------------ | --------------------- |

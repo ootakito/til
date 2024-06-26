@@ -68,6 +68,14 @@ SELECT CASE WHEN 条件　値
 WHEN 条件　THEN 値
 FROM テーブル名
 
+| country_name   |   | the price of the item    |
+| --------- |  | ----------- |
+|  アメリカ |   |   1000      | 
+|  カナダ |   |    1100            |
+|    ドイツ   |   | 700 |
+| イタリア |   |     800     |
+
+
 
 
 

@@ -92,6 +92,31 @@ the price of the items;この指示を与えると<br>
 
 こうなる。
 
+SELECT <br>
+CASE WHEN country_name　IN（'アメリカ’,'カナダ')THEN 'アメリカ大陸’<br>
+WHEN country_name　IN（'ドイツ’,'イタリア')THEN 'ユーラシア大陸’<br>
+ELSE NULL<br>
+END AS continent<br>
+sum(the price of the item)<br>
+FROM <br>
+the price of the items;<br>
+GROUP BY <br>
+CASE WHEN country_name　IN（'アメリカ’,'カナダ')THEN 'アメリカ大陸’<br>
+WHEN country_name　IN（'ドイツ’,'イタリア')THEN 'ユーラシア大陸’<br>
+ELSE NULL<br>
+END;
+
+| continent | the price of the item |
+| ------------ | --------------------- |
+| アメリカ大陸     | 2100                  | 
+| ユーラシア大陸      | 1500                  |
+
+この様な形で計算が出来る。
+
+
+
+
+
 
 
 

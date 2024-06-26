@@ -75,6 +75,24 @@ FROM テーブル名<br>
 | ドイツ       | 700                   |
 | イタリア     | 800                   |
 
+SELECT CASE WHEN country_name　IN（'アメリカ’,'カナダ')THEN 'アメリカ大陸’<br>
+WHEN country_name　IN（'ドイツ’,'イタリア')THEN 'ユーラシア大陸’<br>
+ELSE NULL<br>
+END AS continent<br>
+the price of the item<br>
+FROM <br>
+the price of the items;この指示を与えると<br>
+
+| continent | the price of the item |
+| ------------ | --------------------- |
+| アメリカ大陸     | 1000                  | 
+| アメリカ大陸| 1100                  |
+| ユーラシア大陸      | 700                   |
+| ユーラシア大陸    | 800                   |
+
+こうなる。
+
+
 
 
 

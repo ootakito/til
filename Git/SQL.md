@@ -120,7 +120,7 @@ END;
 
 
 サブクエリ未使用　　アイテムの値段の平均を割り出す時<br>
-SELECT AVG(the price of the item）
+SELECT AVG(the price of the item）<br>
 FROM the price of the item；
 
 

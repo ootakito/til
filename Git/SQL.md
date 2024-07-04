@@ -126,7 +126,19 @@ FROM the price of the item；<br>
 
 SELECT　*<br>
 FROM the price of the item<br>
-WHERE the price of the item>= 1900;<br>
+WHERE the price of the item >= 1900;<br>
+
+サブクエリ使用
+
+SELECT　*<br>
+FROM the price of the item<br>
+WHERE the price of the item >= （SELECT AVG(the price of the item）<br>
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　FROM the price of the item）；<br>
+
+
+
+
+
 
 
 

@@ -121,7 +121,15 @@ END;
 
 サブクエリ未使用　　アイテムの値段の平均を割り出す時<br>
 SELECT AVG(the price of the item）<br>
-FROM the price of the item；
+FROM the price of the item；<br>
+//1900<br>
+
+SELECT　*<br>
+FROM the price of the item<br>
+WHERE the price of the item>= 1900;<br>
+
+
+
 
 
 

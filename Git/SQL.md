@@ -119,6 +119,12 @@ END;
 サブクエリ（副問い合わせ）はSQLクエリの中で使用して、別のクエリの中で計算やフィルタリングを行うことができる。
 
 
+サブクエリ未使用　　アイテムの値段の平均を割り出す時<br>
+SELECT AVG(the price of the item）
+FROM the price of the item；
+
+
+
 
 
 

@@ -137,7 +137,7 @@ WHERE the price of the item >= 1900;<br>
 SELECT　*<br>
 FROM the price of the item<br>
 WHERE the price of the item >= （SELECT AVG(the price of the item）<br>
-　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　FROM the price of the item）；<br>
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　FROM the price of the item）；
 
 
 
